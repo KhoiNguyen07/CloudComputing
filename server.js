@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8080
 connectDB()
 
 app.use(cors({
-    origin: 'https://cloudcomputing-bhx2.onrender.com', 
+    origin: 'https://cloudcomputing-r4gy.onrender.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'], 
   }));
